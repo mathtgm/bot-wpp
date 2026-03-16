@@ -22,6 +22,8 @@ const client = new Client({
 
 client.once("ready", async () => {
   console.log("Cliente conectado!");
+  //Enviar mensagem ao iniciar o bot
+  //await client.sendMessage("55Numero_pessoa_com_ddd@c.us", mensagem);
 });
 
 client.on("authenticated", () => {
