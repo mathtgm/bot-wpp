@@ -1,0 +1,7 @@
+*.log
+auth/
+.wwebjs_cache/
+node_modules/
+init*
+package-lock.json
+fotos/*.jpg

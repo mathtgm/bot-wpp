@@ -1,0 +1,21 @@
+{
+  "name": "bot-wpp",
+  "version": "1.0.0",
+  "main": "index.cjs",
+  "scripts": {
+    "start": "node ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "log4js": "^6.9.1",
+    "node-wav-player": "^1.0.0",
+    "node-webcam": "^0.8.2",
+    "qrcode-terminal": "^0.12.0",
+    "screenshot-desktop": "^1.15.1",
+    "whatsapp-web.js": "^1.34.6"
+  }
+}
